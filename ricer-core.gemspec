@@ -19,15 +19,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_runtime_dependency "rake", "~> 10.0"
-  
-  spec.add_runtime_dependency 'i18n', '~> 0'
-  spec.add_runtime_dependency 'bcrypt', '~> 3.1' # 
-  spec.add_runtime_dependency 'activerecord', '~> 4' # 
-# spec.add_runtime_dependency 'os', '~> 0'
-  spec.add_runtime_dependency 'strip_attributes', '~> 1'
-  spec.add_runtime_dependency 'validate_as_email', '~> 2' #, github: 'gizmore/validate_as_email'
-  spec.add_runtime_dependency 'open4', '~> 1'
-  spec.add_runtime_dependency 'foreigner', '~> 1'
+  # spec.add_development_dependency "bundler", "~> 1.7"
+  # spec.add_runtime_dependency "rake", "~> 10.0"
+#   
+  # spec.add_runtime_dependency 'i18n', '~> 0'
+  # spec.add_runtime_dependency 'bcrypt', '~> 3.1' # 
+  # spec.add_runtime_dependency 'activerecord', '~> 4' # 
+# # spec.add_runtime_dependency 'os', '~> 0'
+  # spec.add_runtime_dependency 'strip_attributes', '~> 1'
+  # spec.add_runtime_dependency 'validate_as_email', '~> 2' #, github: 'gizmore/validate_as_email'
+  # spec.add_runtime_dependency 'open4', '~> 1'
+  # spec.add_runtime_dependency 'foreigner', '~> 1'
 end

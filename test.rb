@@ -1,4 +1,6 @@
-require "rake"
+#require "rake"
 #require "rubygems"
 #require "bundler/setup"
 require "ricer"
+
+puts "HI"
