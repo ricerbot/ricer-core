@@ -1,0 +1,3 @@
+module Ricer
+  
+end
